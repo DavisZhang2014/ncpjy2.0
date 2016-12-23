@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+#upload{
+	width:auto;
+	height:514px;
+	border:2px solid #CCC;
+	margin:1px 215px 0 215px;
+}
+#upload dl{
+	border:1px dashed #123;
+	height:500px;
+}
+#upload dl dt{
+	border:1px dashed #e69;
+	float:left;
+	width:500px;
+	height:500px;
+	text-align:center;
+	margin:10px 0 0 20px;
+
+}
+#upload dl dd{
+	text-align:center;
+	margin:50px 20px 10px 0;
+}

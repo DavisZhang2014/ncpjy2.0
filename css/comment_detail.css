@@ -1,0 +1,126 @@
+@CHARSET "UTF-8";
+#member #product_detail_up{
+	border:1px solid #999;
+	width:750px;
+	height:300;
+	margin:9px;
+	float:right;
+}
+#member #product_detail_up #product_detail_left{
+	position:absolute;
+	margin:10px 0 0 20px;
+	float:left;
+	border:1px dashed #333;
+}
+#member #product_detail_up #product_detail_right{
+	position:relative;
+	width:350px;
+	height:200px;
+	float:right;
+	margin:1px 20px 1px 0;
+	background:#eee;
+}
+#member #product_detail_up #product_detail_right h2{
+	background:#eee;
+	height:30px;
+	font-size:15pt;
+	text-align:center;
+	margin:10px 0 20px 0;
+}
+#member #product_detail_up #product_detail_right p.line{
+	width:90%;
+	margin:0 auto;
+	border-bottom:1px dashed #666;
+	height:2px;
+	clear:both;
+}
+
+#member #product_detail_up #product_detail_right dl{
+	height:20px;
+	font-size:15px;
+	text-align:left;
+	margin:10px 0 5px 20px;
+}
+#member #product_detail_up #product_detail_right dl strong{
+	margin:10px 20px 10px 10px;
+	font-size:15px;
+}
+
+#member #product_detail_bottom{
+	border:1px solid #999;
+	width:750px;
+	height:auto;
+	margin:9px;
+	float:right;
+}
+#member #product_detail_bottom p{
+	margin:20px 0 10px 20px;
+}
+#member #product_detail_bottom p.line{
+	
+	width:95%;
+	margin:5px auto;
+	clear:both;
+	border-bottom:1px dashed #333;
+}
+#member #product_detail_bottom dt{
+	height:30px;
+	background:#630;
+	margin:10px 0;
+}
+#member #product_detail_bottom dt strong{
+	display:block;
+	float:left;
+	line-height:30px;
+	margin-left:21px;
+	padding:0 2px;
+	font-size:15pt;
+	color:#FFFFFF;
+}
+#member #product_detail_bottom dt strong:hover{
+	background:#FF6600;	
+	cursor:pointer;
+}
+#member #product_detail_bottom dd{
+	margin:10px 30px 0 30px;
+}
+#member #product_detail_bottom #cooking {
+	display:none;
+}
+#member #product_detail_bottom #comment dl.con{
+	float:left;
+	margin:20px 30px 0 30px;
+}
+#member #product_detail_bottom #comment dl.time{
+	float:right;
+	margin:25px 20px 0 30px;
+	font-size:8px;
+}
+
+#member #product_detail_bottom #comment #com_detail dl.username{
+	float:right;
+	margin:20px 30px 0 0;
+	font-size:15px;
+}
+#member #product_detail_bottom #comment #com_detail span{
+	float:right;
+	margin:22px 50px 0 30px;
+	font-size:8px;
+}
+#member #product_detail_bottom #comment #com_detail span:hover{
+	cursor:pointer;
+}
+#member #product_detail_bottom #comment #com_detail div.reply{
+	display:none;
+	width:600px;
+	height:80px;
+	margin:0 auto;
+}
+#member #product_detail_bottom #comment #com_detail div.reply textarea{
+	float:left;
+	margin:5px 0;
+}
+#member #product_detail_bottom #comment #com_detail div.reply input{
+	float:right;
+	margin:35px 70px 0 0;
+}

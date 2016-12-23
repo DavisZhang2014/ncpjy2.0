@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+#member #member_main{
+	border:1px dashed #999;
+	width:750px;
+	margin:9px;
+	height:500px;
+	float:right;
+}
+#member #member_main #new_comment{
+	height:100%;
+	background:#eee;
+}
+#member #member_main #new_comment dl dt{
+	height:30px;
+	font-size:15pt;
+	background:#CCC;
+}
+#member #member_main #new_comment dl dt strong{
+	position:absolute;
+	margin:5px 0 0 30px;
+}
+#member #member_main span{
+	position:absolute;
+	top:132px;
+	margin:10px 20px 10px 510px;
+	font-size:10px;
+	
+}

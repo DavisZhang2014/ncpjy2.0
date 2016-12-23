@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+#orders{
+	width:1005px;
+	border:2px solid #CCC;
+	margin:1px 215px 0 215px;
+}
+#orders dl{
+	width:100%;
+	height:auto;
+	margin:20px;
+}
+#orders dl dt{
+	width:90%;
+	height:30px;
+	margin:20px;
+	line-height:40px;
+	background:#999;
+	font-weight:bold;
+	color:#fff;
+}
+#orders dl dd{
+	width:90%;
+	padding:10px 10px;
+	margin:20px;
+	border-bottom:1px dashed #999;
+}
+#orders dl table{
+	width:90%;
+	margin:20px;
+	text-align:center;
+	background:#ccc;
+	margin-bottom:0px;
+}
+#orders dl table tr{
+	height:25px;
+	line-height:50px;
+	background:#fff;
+}
+#orders dl table tr td{
+	line-height:60px;
+	width:90px;
+}
+#orders dl table td a{
+	text-decoration:none;
+}
+#orders dl table td a:hover{
+	text-decoration:underline;
+}
+
+#orders dl dd.submit{
+	border-bottom:0px;
+	margin:10px 0 0 770px;
+}

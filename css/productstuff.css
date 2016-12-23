@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+#subject{
+	width:1050px;
+	height:700px;
+	border:1px dashed #666;
+	margin:10px auto;
+}
+#subject #list{
+	width:250px;
+	height:300px;
+	float:left;
+	margin:10px 5px;
+	border:1px dashed #333;
+	
+}
+
+#subject #list dl dt img{
+	margin:0 2px;
+}
+#subject #list dl dd{
+	margin:8px;
+}
+#subject #list dl dd.price{
+	color:#630;
+}

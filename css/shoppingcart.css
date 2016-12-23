@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+#shoppingcart{
+	outline:#333 dashed 1px;
+	width:1005px;
+	margin:auto;
+}
+#shoppingcart h2{
+	text-align:center;
+	margin:10px 0;
+}
+#shoppingcart table{
+	width:100%;	
+	margin:10px auto;	
+	margin-bottom:0px;	
+	text-align:center;
+}
+
+#shoppingcart table th{
+	line-height:40px;
+	background:#BBB;
+}
+#shoppingcart table td{
+	line-height:90px;
+	background:#EEE;
+}
+#shoppingcart table td a{
+	text-decoration:none;
+	color:#333;
+}
+#shoppingcart table td a:hover{
+	text-decoration:underline;
+}
+#shoppingcart dl{
+	float:right;
+	margin:10px 70px 0 0;
+}
+#shoppingcart dl dd{
+	display:inline;
+	margin:0 10px;
+}
+#shoppingcart p{	
+	text-align:center;
+}
+#shoppingcart dl a{
+	text-decoration:none;
+	color:#333;
+}
+#shoppingcart dl a:hover{
+	text-decoration:underline;
+	color:#030;
+}

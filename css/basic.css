@@ -1,0 +1,186 @@
+@CHARSET "UTF-8";
+* {
+	padding:0;
+	margin:0;
+}
+body{
+	margin:0 auto;
+	background:#fff;
+	font-size:14px;
+}
+#header {
+	width:auto;
+	height:120px;
+}
+#header #top{
+	width:1300px;
+	height:80px;
+	margin:auto;
+}
+#header #top h1{
+	position:relative;
+	top:10px;
+	width:210px;
+	float:left;
+	font-size:50px;
+	
+
+}
+#header #top h1 a {
+	display:block;
+	color:#630;
+	text-decoration:none;
+}
+#header #top dl{
+	position:relative;
+	float:right;
+	top:35px;
+}
+
+#header #top dl dd{
+	display:inline;
+	margin:20px;
+}
+#header #bottom{
+	width:auto;
+	height:40px;
+	background:#630;
+	
+}
+#header #bottom ul{
+	width:1005px;
+	height:40px;
+	margin-left:220px;
+}
+#header #bottom ul li{
+	display:block;
+	line-height:40px;
+	font-size:15pt;
+	margin:0 10px 0 10px;
+	padding:0 5px;
+	float:left;
+}
+#header #bottom ul li a{
+	display:block;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+#header #bottom ul li:hover{
+	background:#FF6600;
+}
+
+
+#page_num {
+	height:20px;
+	clear:both;
+	padding:20px 0;
+	position:relative;
+	font-size:12px;
+}
+#page_num ul {
+	position:absolute;
+	right:30px;
+	height:20px;
+}
+#page_num ul li {
+	float:left;
+	width:26px;
+	height:20px;
+	list-style:none;
+}
+#page_num ul li a {
+	display:block;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	border:1px solid #333;
+	text-align:center;
+	text-decoration:none;
+}
+#page_num ul li a:hover,#page_num ul li a.selected {
+	background:#666;
+	font-weight:bold;
+	color:#fff;
+}
+#page_text {
+	height:20px;
+	clear:both;
+	padding:20px 0;
+	font-size:12px;
+}
+#page_text ul {
+	text-align:center;
+}
+#page_text ul li {
+	display:inline;
+}
+#page_text ul li a {
+	color:#333;
+}
+
+#member{
+	width:1005px;
+	height:auto;
+	margin:1px 215px 0 215px;
+}
+#member h2 {
+	text-indent:0;
+	text-align:center;
+	height:30px;
+	background:#BBB;
+	line-height:30px;
+}
+#member #member_sidebar{
+	border:1px solid #CCC;
+	width:200px;
+	height:500px;
+	margin:9px;
+	float:left;
+
+}
+#member #member_sidebar dl{
+	width:200px;
+	margin:5px auto;
+	text-align:center;	
+}
+#member #member_sidebar dl dt{
+	height:30px;
+	line-height:40px;
+	background:#CCC;
+	font-weight:bold;
+	text-align:center;
+
+}
+#member #member_sidebar dl dd{
+	height:30px;
+	line-height:40px;
+	background:#eee;
+	font-weight:400;
+	text-align:center;
+}
+#member #member_sidebar dl dd a{
+	display:block;
+	color:#333;
+	text-decoration:none;
+}
+#member #member_sidebar dl dd a:hover{
+	background:#DDD;
+}
+
+#footer {
+	clear:both;
+	width:1050px;
+	height:60px;
+	text-align:center;
+	padding:10px 0 0 0;
+	border-top:5px solid #630;
+	margin:20px auto;
+}
+#footer p {
+	font-size:12px;
+	letter-spacing:1px;
+	padding:5px 0 0 0;
+}
+#footer p span {
+	color:#06f;
+}

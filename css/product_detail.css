@@ -1,0 +1,138 @@
+@CHARSET "UTF-8";
+#product_detail_up{
+	width:1005px;
+	height:auto;
+	margin-top:9px;
+}
+#product_detail_up #product_detail_left{
+	width:281px;
+	height:281px;
+	margin:1px 0px 1px 250px;
+	float:left;
+}
+#product_detail_up #product_detail_right{
+	background:#eee;
+	width:400px;
+	height:281px;
+	float:right;
+	margin:1px -100px 1px 0;
+}
+#product_detail_up #product_detail_right h2{
+	height:30px;
+	font-size:30px;
+	text-align:center;
+	margin:10px 0 20px 0;
+}
+#product_detail_up #product_detail_right p.line{
+	width:90%;
+	margin:0 auto;
+	border-bottom:1px dashed #666;
+	height:2px;
+	clear:both;
+}
+
+#product_detail_up #product_detail_right dl{
+	height:20px;
+	font-size:15px;
+	text-align:left;
+	margin:10px 0 5px 20px;
+}
+#product_detail_up #product_detail_right dl strong{
+	margin:10px 20px 10px 10px;
+	font-size:15px;
+}
+#product_detail_up #product_detail_right ul li {
+	position:relative;
+	bottom:-50px;
+	left:100px;
+	font-size:25px;
+	display:inline;	
+}
+#product_detail_up #product_detail_right ul li a{
+	text-decoration:none;
+}
+#product_detail_up #product_detail_right ul li a button{
+	width:80px;
+	height:25px;
+	margin:0 10px;
+}
+
+#product_detail_bottom{
+	width:1005px;
+	height:auto;
+	margin:310px 215px 0 215px;
+	background:#eee;
+}
+#product_detail_bottom p{
+	margin:10px 0 0 20px;
+}
+#product_detail_bottom p.line{
+	width:95%;
+	margin:10px auto;
+	clear:both;
+	border-bottom:1px dashed #333;
+}
+#product_detail_bottom p.line2{
+	width:92%;
+	margin:10px 0 0 50px;
+	clear:both;
+	border-bottom:1px dashed #333;
+}
+#product_detail_bottom dt{
+	height:30px;
+	background:#630;
+	margin:10px 0;
+}
+#product_detail_bottom dt li{
+	display:block;
+	float:left;
+	line-height:30px;
+	margin-left:21px;
+	padding:0 2px;
+	font-size:12pt;
+	color:#FFFFFF;
+}
+#product_detail_bottom dt li:hover{
+	background:#FF6600;	
+	cursor:pointer;
+}
+#product_detail_bottom dd{
+	margin:10px 30px 0 30px;
+}
+#product_detail_bottom #comment {
+	display:none;
+}
+
+#product_detail_bottom #comment dl.comment dd.floor{
+	float:left;
+	margin:20px 5px 0 10px;
+	color:#630;
+}
+#product_detail_bottom #comment dl.comment dd.con{
+	float:left;
+	margin:20px 30px 0 0;
+}
+#product_detail_bottom #comment dl.comment dd.time{
+	float:right;
+	margin:25px 20px 0 30px;
+	font-size:8px;
+}
+#product_detail_bottom #comment dl.comment dd.username{
+	float:right;
+	margin:20px 30px 0 0;
+	font-size:15px;
+}
+#product_detail_bottom #comment dl.reply dd.con{
+	float:left;
+	margin:20px 30px 0 50px;
+}
+#product_detail_bottom #comment dl.reply dd.time{
+	float:right;
+	margin:25px 20px 0 30px;
+	font-size:8px;
+}
+#product_detail_bottom #comment dl.reply dd.username{
+	float:right;
+	margin:20px 30px 0 0;
+	font-size:15px;
+}

@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+#member #member_PSW_modify{
+	border:1px solid #999;
+	width:750px;
+	margin:9px;
+	height:500px;
+	float:right;
+	background:#eed;
+}
+#member #member_PSW_modifydl{
+	width:550px;
+	margin:15px auto;
+	font-size:14px;	
+}
+#member #member_PSW_modify dl dd{
+	padding:10px 0;
+	text-indent:20px;
+	border-bottom:1px dashed #999;	
+}
+#member #member_PSW_modify dl dd input.password{
+	weidth:220px;
+	height:19px;
+	border:1px dashed #333;
+	background:#fff;
+}
+#member #member_PSW_modify dl dd input.submit{
+	border:60px;
+	height:22px;
+	border:1px dashed #333;
+	cursor:pointer;
+}

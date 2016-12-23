@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+#member #product_add{
+	border:1px solid #999;
+	width:750px;
+	margin:9px;
+	height:500px;
+	float:right;
+	background:#eee;
+}
+#member #product_add dl.photo_up{
+	width:180px;
+	height:180px;
+	margin:18px 10px 10px 15px;
+	float:left;
+	border:1px dashed #333;
+	background:#eee;
+}
+#member #product_add dl.photo_up dt{
+	position:relative;
+	top:10px;
+	border:1px dashed #666;
+}
+#member #product_add dl.photo_up dd{
+	display:inline;
+	position:relative;
+	top:30px;
+	left:15px;
+	
+}
+
+#member #product_add dl.product_intro{
+	width:500px;
+	height:200px;
+	margin:20px 15px 10px 20px;
+	float:right;
+	background:#eee;
+}
+#member #product_add dl.product_intro dt{
+	position:relative;
+	display:inline;
+	margin:0 20px;
+	padding:0 20px;
+	top:20px;
+}
+
+#member #product_add dl.product_intro dd.product_count{
+	position:relative;
+	display:inline;
+	margin:0 20px;
+	padding:0 20px;
+	top:35px;
+}
+#member #product_add dl.product_intro dd.product_mater{
+	position:relative;
+	display:inline;
+	margin:0 20px;
+	padding:0 20px;
+	top:50px;
+}
+#member #product_add dl.product_intro dd.product_time{
+	position:relative;
+	margin:0 20px 0 20px;
+	padding:10px 20px 0 20px;
+	top:55px;
+}
+#member #product_add dl.product_intro dd.product_sea{
+	position:relative;
+	margin:10px 20px 0 20px;
+	padding:10px 20px 0 20px;
+	top:60px;
+}
+#member #product_add dl.method{
+	position:absolute;
+	top:390px;
+	width:750px;
+	background:#eee;
+}
+#member #product_add dl.method dt{
+	padding:10px 40px;
+}
+#member #product_add dl.method dd{
+	text-align:center;
+	padding:10px;
+	
+}
