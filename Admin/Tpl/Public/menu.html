@@ -1,0 +1,34 @@
+<div class="page-container">
+<!-- BEGIN SIDEBAR -->
+<div class="page-sidebar nav-collapse collapse">
+	<!-- BEGIN SIDEBAR MENU -->        
+	<ul class="page-sidebar-menu">
+		<li>
+			<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+			<div class="sidebar-toggler hidden-phone"></div>
+			<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+		</li>
+
+		<{foreach from=$menu item=item}>
+			<{if $item.selected eq 'yes'}>
+				<li class="start active ">
+					<a href="<{$__APP__}>/<{$item.Code}>">
+					<i class="icon-briefcase"></i> 
+					<span class="title"><{$item.DisplayName}></span>
+					<span class="selected"></span>
+					</a>
+				</li>
+			<{else}>
+				<li class=" ">
+					<a href="<{$__APP__}>/<{$item.Code}>">
+					<i class="icon-briefcase"></i> 
+					<span class="title"><{$item.DisplayName}></span>
+					<span class="arrow"></span>
+					</a>
+				</li>
+			<{/if}>
+		<{/foreach}>
+	</ul>
+	<!-- END SIDEBAR MENU -->
+</div>
+<!-- END SIDEBAR -->

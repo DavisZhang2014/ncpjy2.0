@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+#sibling{
+	display: block;
+	border: 2px solid lightgrey;
+	color: lightgrey;
+	padding: 5px;
+	margin: 15px;
+}
+#sibling p,span,h2,h3{
+	display: block;
+	border: 2px solid lightgrey;
+	color: lightgrey;
+	padding: 5px;
+	margin: 15px;
+}
